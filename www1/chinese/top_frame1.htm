@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>坑口聖雲仙堂</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+</head>
+<script language="JavaScript"> 
+<!-- 
+scrtxt="歡迎光臨坑口聖雲仙堂!"
+txtlength=scrtxt.length
+pos=width=40
+if(navigator.appName=="Netscape") step=2
+else step=1
+
+function scrolling()
+{
+var statustxt=""
+if (pos+txtlength<0) pos=width
+	if (pos>=0) {
+		for (var i=1;i<=pos;i++)
+			statustxt=statustxt+"　"
+		statustxt=statustxt+scrtxt;
+	 }
+	else
+     statustxt=scrtxt.substring(-(pos),txtlength)
+	window.status=statustxt
+	pos=pos-step
+	setTimeout("scrolling() ",200)
+	}
+// -->
+</script>
+<body onLoad='scrolling() ' text="#003366" link="#CCCCCC" background="images/000C00829.jpg">
+<SCRIPT language=JavaScript>
+var myfar;
+var mytitle;
+myfar="http://stvincent.catholic.org.hk";
+mytitle="坑口聖雲仙堂";
+function favority() {
+if (navigator.appName!="Netscape"){
+window.external.AddFavorite(myfar, mytitle);}
+else{
+window.location = myfar;
+}}
+</SCRIPT> <div align="center"> <A HREF="javascript:favority()"><font color="#000033"><IMG SRC="favorite.jpg" WIDTH="59" HEIGHT="48"></font></A> 
+<b><font face="標楷體" size="+4"><strong>坑口聖雲仙堂</strong></font></b> <A HREF="#" ONCLICK="this.style.behavior='url(#default#homepage)';this.setHomePage('http://stvincent.catholic.org.hk');"><font color="#000033"><IMG SRC="1st.jpg" WIDTH="84" HEIGHT="50"></font></A> 
+</div>
+</body>
+</html>
